@@ -1,0 +1,30 @@
+LoadPlugin("ffms2.dll")
+FFVideoSource("C:\Users\ishii\Downloads\新しいフォルダー\hjjgsskftjhthhtth.mp4",seekmode=-1,cache=false,threads=1)
+
+_isyv12 = IsYV12()
+_isrgb = IsRGB()
+_fps = Framerate()
+_keyint = String(Round(30.000))
+_premium_bitrate = String(Floor(Float(98.5) * 1024 * 1024 * 8 / 182144))
+_normal_bitrate = String(Floor(Float(39) * 1024 * 1024 * 8 / 182144))
+_premium_bitrate_new = String(Floor(Float(2995) * 1024 * 1024 * 8 / 182144))
+_youtube_partner_bitrate = String(Floor(Float(250000) * 1024 * 1024 * 8 / 182144))
+_youtube_normal_bitrate = String(Floor(Float(120000) * 1024 * 1024 * 8 / 182144))
+_twitter_bitrate = String(Floor(Float(510) * 1024 * 1024 * 8 / 182144))
+_in_width = String(Floor(Float(1920) * 1.000))
+
+WriteFileStart("yv12.txt","_isyv12",append = false)
+WriteFileStart("rgb.txt","_isrgb",append = false)
+WriteFileStart("fps.txt","_fps",append = false)
+WriteFileStart("keyint.txt","_keyint",append = false)
+WriteFileStart("premium_bitrate.txt","_premium_bitrate",append = false)
+WriteFileStart("normal_bitrate.txt","_normal_bitrate",append = false)
+WriteFileStart("premium_bitrate_new.txt","_premium_bitrate_new",append = false)
+WriteFileStart("in_width.txt","_in_width",append = false)
+WriteFileStart("youtube_partner_bitrate.txt","_youtube_partner_bitrate",append = false)
+WriteFileStart("youtube_normal_bitrate.txt","_youtube_normal_bitrate",append = false)
+WriteFileStart("twitter_bitrate.txt","_twitter_bitrate",append = false)
+
+Trim(0,-1)
+
+return last

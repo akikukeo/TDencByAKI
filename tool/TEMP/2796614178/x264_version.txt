@@ -1,0 +1,9 @@
+x264 0.164.3098 7628a56
+(libswscale 5.9.100)
+(libavformat 58.76.100)
+(lsmash 2.16.1)
+built on Sep  5 2022, gcc: 10-win32 20210110
+x264 configuration: --chroma-format=all
+libx264 configuration: --chroma-format=all
+x264 license: GPL version 2 or later
+libswscale/libavformat license: GPL version 2 or later
