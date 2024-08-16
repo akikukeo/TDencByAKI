@@ -82,5 +82,3 @@ TDencY_byAKI\Licenses\つんでれんこのライセンス.txtをご覧くださ
 改造版作者｜akikukeo
 - [GitHub](https://github.com/akikukeo) <br>
 - Discord|@akikukeo
-
-test
