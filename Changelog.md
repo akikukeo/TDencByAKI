@@ -1,14 +1,14 @@
-# Changelog v.2
-## DeletePlogram
-- DescriptionOfChangesByAKI.txt
+# Changelog v0.1.2
+## Delete Program
+- 
 
-## NewPlogram
-- Changelog.md
+## New Program
+- 
 
-## ChangePlogram | UpdatePlogram
+## Change Program | UpdatePlogram
 - README.md 
->Correction of minor details,
-Add spase
+>- Correction of minor details and version information.
 
 - Changelog.md
->Add spase,Add v
+>- Correction of spelling errors (There were many spelling mistakes because it was created in a hurry...英語話者の人に見つかったら...)<br>
+>- Correction of minor details and version information.
