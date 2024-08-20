@@ -1,4 +1,4 @@
-# Changelog v0.1.2
+# Changelog v1.0.0
 ## Delete Program
 - 
 
@@ -10,5 +10,4 @@
 >- Correction of minor details and version information.
 
 - Changelog.md
->- Correction of spelling errors (There were many spelling mistakes because it was created in a hurry...英語話者の人に見つかったら...)<br>
 >- Correction of minor details and version information.
