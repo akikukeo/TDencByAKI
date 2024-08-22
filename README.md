@@ -1,100 +1,33 @@
-<!--タイトル-->
-# TDenc｜byAKI v1.0.1 README-使用方法
+## ↓↓README and Changelog↓↓(.md)本体にも付属
+[README.md](https://github.com/user-attachment)
+[Changelog.md](https://github.com/user-attachments/files/16669377/Changelog.md)
+[README.md(GitHubver.)](https://github.com/akikukeo/TDencByAKI_DEV)
 
-### 一旦正式版リリース
-「つんでれんこ」は、動画のエンコーダーです。元々の「つんでれんこ」を改造し、YouTubeにアップロードする動画を入力すると、自動的にエンコードを行う機能を追加しました。プリセットによって、本来の「つんでれんこ」で行われる質問をスキップし、スムーズにエンコードを実行します。
-
-> ### 追記 <br>
-> **コード**のダウンロードを行う際はZIP形式ではなくCloneでダウンロードしたほうがいいですよ！    <br>
-> なんかZIPだとBatが実行出来ないっぽい？    <br>
-> **releaseのZIPは問題ありません！**
-
-
-
-## 特徴
-
-- **自動エンコード**: 動画ファイルを指定するだけで、自動的にエンコードを開始します。
-- **プリセット対応**: エンコード設定はプリセットで管理され、質問をスキップしてスムーズに処理します。
-    プリセットはご自分で変更も可能です。
-- **簡単な操作**: 動画ファイルを「【ここに動画をD&D】.bat」にドラッグ＆ドロップし、媒体を指定するとエンコードが開始されます。
-
-- **ブラウザで確認**:「ここにD&Dして動画をチェック」にエンコード済みの動画ファイルを投げることでブラウザから確認することができます。
+## インストール | exe(激しく推奨)
+1. exeをダウンロードする。[TDencByAKIv1.0.1.exe](https://github.com/akikukeo/TDencByAKI_DEV/releases/download/v1.0.1/TDencByAKIv1.0.1.exe)
+2. exeを実行。自動的にファイルが展開されます。 
+![image](https://github.com/user-attachments/assets/cb4006f0-93df-4d31-9550-5490428c812c)
+![image](https://github.com/user-attachments/assets/97d02b86-5dc8-4ab7-97bf-7b21eb91e289)
+4. README.mdを確認する。.md(マークダウン)形式となっています。テキストエディタとかで開いてください。mdはテキストファイルなのでメモ帳でも開けます。(強くおすすめしない)調べたら開き方とか出てきます。[READMEここでも見れるよ～](https://github.com/akikukeo/TDencByAKI_DEV)
+![image](https://github.com/user-attachments/assets/c288d7de-1681-4dc1-9ff7-7ad4d2ad27a7)
+**↓↓↓**
+![image](https://github.com/user-attachments/assets/af47f939-946c-4b49-9f21-7648d6b78bde)
+**あとはREADMEに載ってます。**
 
 
+## ↓↓DOWNLOADING HERE↓↓どちらか(exe推奨,中身は同じ)
+[TDencByAKIv1.0.1.exe](https://github.com/akikukeo/TDencByAKI_DEV/releases/download/v1.0.1/TDencByAKIv1.0.1.exe)
+~~[TDencByAKIv1.0.1.zip](https://github.com/akikukeo/TDencByAKI_DEV/releases/download/v1.0.1/TDencByAKIv1.0.1.zip)~~
 
-## インストール
-
-1. ZIPをダウンロードする。
-
-2. ZIPを展開する(ファイルを右クリック→すべて展開)
-
-3. 出てきたexeを実行。    <br>
-    自動的にファイルが展開されます。
-
-4. README.mdを確認する。  <br>
-    .md(マークダウン)形式となっています。テキストエディタとかで開いてください。mdはテキストファイルなのでメモ帳でも開けます。(強くおすすめしない)調べたら開き方とか出てきます。 <br>
-    **ちなみに、GitHubからもREADMEは見れますので。**
-
-5. あとはREADMEに載ってます。
+| ダウンロード方式 | 必要なツール |
+| --- | --- |
+| ~~TDencByAKIv1.0.1.zip~~ | ~~展開ソフト(Windows標準OK)~~ |
+| TDencByAKIv1.0.1.exe | 無し |
 
 
-
-## 使用方法
-
-1. **「動画をドロップ.bat」に動画ファイルを投げます。**
-
-2. 自動的にコマンドプロンプトが立ち上がり、媒体の指定の質問が行われます。現在はYoutubeのみの対応です。<br>
- >   **YouTube以外を選択すると通常のつんでれんこと同様の手順となります。**
-
-3. 確認が行われます。答えてください。終了するとエンコードが開始されます。
-
-4. 完了するとブラウザにプレビューが表示されます。
-
-
-
-
-### 応用的な使い方 | 本家つんでれんこ公式サイトの一部コピペ
-1. 動画の音声差し替え<br>
-動画ファイルと音声ファイル（wavのみ対応）を**一緒**にドラッグ＆ドロップすると、動画の音声を音声ファイルの音声と差し替えます。
-
-2. 連番動画を連結してエンコード <br>
-連番AVI（＆音声ファイル）をフォルダに入れ、フォルダごとドラッグ＆ドロップすると連番ファイルを連結して（＆音声をつけて）エンコード。
-
-3. 複数の動画を連続エンコード   <br>
-複数の映像ファイルをドラッグ＆ドロップすると、動画をどんどん連続でエンコードしていきます。
-
-4. ファイルサイズ、解像度、FPSなどの指定    <br>
-設定ファイル（user_setting.bat）で以下の設定を弄ることがができます。
-    - 総ビットレート上限
-    - MP4の容量
-    - 自動リサイズの解像度
-    - FPS変換
-    - AACエンコーダ選択
-    - AACエンコードプロファイル選択
-    - デコーダ選択
-    - フルレンジ
-    - 自動バージョンチェック
-    - パス数設定
-    - MP4出力先
-    - 自動シャットダウン
-
-
-
-
-
-## ライセンス
-
-Licenses\つんでれんこのライセンス.txtをご覧ください。   <br>
-元のつんでれんこのライセンスを継承します。
-改良とか改造とかはどんどんしてくださいね！
-
-
-
-
-## 作者
-本家つんでれんこ作者｜窓屋
-- [公式サイト](https://tdenc.com/)  <br>
-
-改造版作者｜akikukeo
-- [GitHub](https://github.com/akikukeo) <br>
-- Discord|@akikukeo
+~~## インストール | ZIP~~
+~~1.ZIPをダウンロードする。~~
+~~2. ZIPを展開する(ファイルを右クリック→すべて展開)~~
+~~3. 出てきたexeを実行。自動的にファイルが展開されます。~~
+~~4. README.mdを確認する。.md(マークダウン)形式となっています。テキストエディタとかで開いてください。mdはテキストファイルなのでメモ帳でも開けます。(強くおすすめしない)調べたら開き方とか出てきます。**ちなみに、GitHubからもREADMEは見れます。**~~
+~~5. あとはREADMEに載ってます。~~
